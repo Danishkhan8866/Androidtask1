@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextEmployeeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee ID"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextEmployeeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Designation"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextGrossSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gross Salary"
+        android:inputType="numberDecimal"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextIncomeTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Income Tax"
+        android:inputType="numberDecimal"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextProvidentFund"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Provident Fund"
+        android:inputType="numberDecimal"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextProfessionalTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Professional Tax"
+        android:inputType="numberDecimal"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Salary"/>
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salary: "
+        android:textStyle="bold" />
+
+</LinearLayout>
